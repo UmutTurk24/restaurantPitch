@@ -14,7 +14,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 .navigation { 
     position: absolute;
@@ -34,7 +34,7 @@ body{
 .bar:hover { 
     background: #fff;
 }
-input[name="r"]{
+input [name = "r"] { 
     position: absolute;
     visibility: hidden;
 }
@@ -51,16 +51,16 @@ input[name="r"]{
     width: 100%;
     height: 100%;
 }
-#r1 :checked ~ .s1{ 
+#r1:checked ~ .s1{ 
     margin-left: 0;
 }
-#r2 :checked ~ .s1{ 
-    margin-left: 20%;
+#r2:checked ~ .s1{ 
+    margin-left: -20%;
 }
-#r3 :checked ~ .s1{ 
+#r3:checked ~ .s1{ 
     margin-left: -40%;
 }
-#r4 :checked ~ .s1{ 
+#r4:checked ~ .s1{ 
     margin-left: -60%;
 }
 .text-block{
