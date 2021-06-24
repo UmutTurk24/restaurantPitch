@@ -24,7 +24,7 @@ body{
     display: flex;
 }
 .bar { 
-    width: 50px;
+    width: 70px;
     height: 10px;
     border: 2px solid #fff;
     margin: 6px;
@@ -39,7 +39,7 @@ input[name="r"] {
     visibility: hidden;
 }
 .slides { 
-    width: 500%;
+    width: 600%;
     height: 100%;
     display: flex;
 }
@@ -65,7 +65,7 @@ input[name="r"] {
 }
 .text-block{
     position:relative;
-    width: 130px;
+    width: 160px;
     margin-top: -55%;
 }
 .text-block h5{
