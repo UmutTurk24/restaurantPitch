@@ -1,22 +1,35 @@
 body {
-  padding: 130px;
+  padding: 100px;
 }
 
 body {
   font-family: Georgia, serif;
   line-height: 25px;
-  width: 720px;
+  width: 90%;
   margin:0 px auto;
+  /* background: radial-gradient(circle, black, white); */
+   background: url("https://www.teahub.io/photos/full/4-40067_harry-potter-pottermore-explore-hogwarts-s-wallpaper-minimalist.jpg")repeat;
 }
 
-h1 {
+.class {
+  width: fit-content;
+  height: 300px;
+}
+
+h1#main-heading {
+  font-weight: normal;
   text-align: center;
   letter-spacing: 1.5px;
+  font-size: 30px;
+  margin-bottom: 12px;
 }
 
-h2 {
+h2.intro {
   text-align: center;
-  margin-bottom: 12px;
+  margin-top:0px;
+  margin-bottom: 60px;
+  border-bottom:0px;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -25,6 +38,13 @@ h3 {
   letter-spacing: 3px;
   border-bottom: double;
   margin-bottom: 12px;
+}
+
+h3.menu-info {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 h2#menu-title {
