@@ -64,7 +64,7 @@ input[name="r"]{
     margin-left: -60%;
 }
 .text-block{
-    position:absolute;
+    position:relative;
     width: 130px;
     margin-top: -55%;
 }
