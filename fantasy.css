@@ -7,9 +7,9 @@ body {
   line-height: 25px;
   width: 90%;
   margin:0 px auto;
-  /* background: radial-gradient(circle, black, white); */
-   background: url("https://www.teahub.io/photos/full/4-40067_harry-potter-pottermore-explore-hogwarts-s-wallpaper-minimalist.jpg")repeat;
+  background: url("https://www.teahub.io/photos/full/4-40067_harry-potter-pottermore-explore-hogwarts-s-wallpaper-minimalist.jpg");
 }
+
 
 .class {
   width: fit-content;
@@ -28,8 +28,9 @@ h2.intro {
   text-align: center;
   margin-top:0px;
   margin-bottom: 60px;
-  border-bottom:0px;
   letter-spacing: 1px;
+  font-style: italic;
+
 }
 
 h3 {
@@ -73,4 +74,21 @@ ul li{
 .addition {
   font-style:italic;
   display:block;
+  color: rgba(86, 47, 99, 0.808);
 }
+
+.ornament {
+  color:rgba(181, 170, 192, 0.603);
+}
+
+#menu {
+ background-color: rgba(209, 195, 195, 0.945);
+ padding: 15px 30px;
+ border: 10px solid rgba(39, 1, 39, 0.671);
+}
+
+/* #menu-background {
+  background: url(https://www.wallpaperboulevard.com/Images/product/harry-potter-house-crest-wallpaper-gpzn-l.jpg);
+  padding: 30px 50px;
+  margin: 40 px 0;
+} */
