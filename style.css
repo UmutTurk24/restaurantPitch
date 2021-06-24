@@ -63,3 +63,13 @@ input[name="r"]{
 #r4 :checked ~ s1 { 
     margin-left: -60%;
 }
+.text-block{
+    position:absolute;
+    width: 130px;
+    margin-top: -55%;
+}
+.text-block h5{
+    text-align:center;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
