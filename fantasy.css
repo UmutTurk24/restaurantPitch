@@ -20,17 +20,18 @@ h1#main-heading {
   font-weight: normal;
   text-align: center;
   letter-spacing: 1.5px;
-  font-size: 30px;
+  font-size: 33px;
   margin-bottom: 12px;
 }
 
 h2.intro {
   text-align: center;
   margin-top:0px;
-  margin-bottom: 60px;
+  margin-bottom: 65px;
   letter-spacing: 1px;
   font-style: italic;
-
+  color:rgba(86, 47, 99, 0.808);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h3 {
@@ -38,15 +39,15 @@ h3 {
   font-weight: normal;
   letter-spacing: 3px;
   border-bottom: double;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 h3.menu-info {
-  text-align: center;
-  width: 300px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
+
 
 h2#menu-title {
   text-transform: uppercase;
@@ -71,20 +72,31 @@ ul li{
   margin-bottom: 27px;
 }
 
+img{max-width:100%;}
+
 .addition {
   font-style:italic;
   display:block;
   color: rgba(86, 47, 99, 0.808);
+  line-height: 15px;
+}
+
+
+ul {
+line-height:18px;
+margin-top: 30px;
+
 }
 
 .ornament {
-  color:rgba(181, 170, 192, 0.603);
+  color:rgba(41, 32, 49, 0.603);
 }
 
 #menu {
  background-color: rgba(209, 195, 195, 0.945);
- padding: 15px 30px;
+ padding: 12px 42px;
  border: 10px solid rgba(39, 1, 39, 0.671);
+ /* width: 750px; */
 }
 
 /* #menu-background {
@@ -92,3 +104,38 @@ ul li{
   padding: 30px 50px;
   margin: 40 px 0;
 } */
+
+img.mainpic {
+  margin-bottom: 0px;
+}
+
+#feast {
+  margin-bottom: 1em;
+  position: relative;
+}
+
+#titles {
+  float: right;
+  margin: 10em 5% 0;
+  width: 32%;
+}
+
+#menu-background {
+  float: left;
+  padding: 2.5%;
+  width: 58%;
+}
+
+p {margin:0px;}
+
+p#welcome{
+  font-style: normal;
+  font-family: Georgia;
+  float: right;
+  width: 100 px;
+  margin-left: 15px;
+  color: rgb(42, 3, 46);
+  text-align:center;
+  font-weight:600;
+  font-size: 16px;
+}
