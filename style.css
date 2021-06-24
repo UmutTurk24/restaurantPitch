@@ -51,16 +51,16 @@ input[name="r"]{
     width: 100%;
     height: 100%;
 }
-#rhttps://media.giphy.com/media/3orif2Pf2G7bqetz68/giphy :checked ~ s1{ 
+#r1 :checked ~ s1{ 
     margin-left: 0;
 }
-#rhttps://media.giphy.com/media/xUPJPiMPuov3WlCW40/giphy :checked ~ s1{ 
+#r2 :checked ~ s1{ 
     margin-left: -20%;
 }
-#ravatar :checked ~ s1 { 
+#r3 :checked ~ s1 { 
     margin-left: -40%;
 }
-#rcoraline :checked ~ s1 { 
+#r4 :checked ~ s1 { 
     margin-left: -60%;
 }
 .text-block{
