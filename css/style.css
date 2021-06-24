@@ -6,7 +6,7 @@ body {
   background: -webkit-linear-gradient(to right, rgba(255, 136, 0, 0.5), rgba(255, 137, 27, 0.5));
   
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, rgba(255, 136, 0, 0.5), rgba(255, 133, 18, 0.5));
+  background: linear-gradient(to right, rgba(236, 153, 57, 0.836), rgba(247, 191, 87, 0.781));
 
 
   height: 200vh;
