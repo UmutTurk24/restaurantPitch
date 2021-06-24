@@ -66,7 +66,7 @@ input[name="r"] {
 .text-block{
     position:relative;
     width: 160px;
-    margin-top: -55%;
+    margin-top: -50%;
 }
 .text-block h5{
     text-align:center;
