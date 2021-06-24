@@ -1,12 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background: #d1b4e2;
+    background-image: url(bg.gif);
 }
 
 .slidershow { 
-    width: 700px;
-    height: 400px;
+    width: 800px;
+    height: 500px;
     overflow: hidden;
 }
 
