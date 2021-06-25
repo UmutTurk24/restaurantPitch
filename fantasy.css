@@ -109,7 +109,7 @@ img.mainpic {
   margin-bottom: 0px;
 }
 
-#feast {
+#cheers{
   margin-bottom: 1em;
   position: relative;
 }
@@ -138,4 +138,100 @@ p#welcome{
   text-align:center;
   font-weight:600;
   font-size: 16px;
+}
+
+#wallpaper {
+  border-bottom: 2px solid rgba(209, 195, 195, 0.945);
+  height: 300px;
+  right:0;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: absolute;
+  top:0;
+  width:100%;
+  z-index: -1;
+}
+
+#wallpaper img{
+  margin-top: -145px;
+  max-width:none;
+  width: 100%;
+}
+
+#menu {
+  box-shadow: 0 0 10px rgba(209, 195, 195, 0.945);
+}
+
+h1#main-heading {
+  font-size:33px;
+  text-align: center;
+  line-height: 40px;
+  text-shadow: 0 0 10 px rgb(22, 1, 1);
+  color:rgb(218, 193, 235)
+}
+
+h2.intro {
+  font-size: italic;
+  text-align: center;
+}
+
+#welcome {
+  text-align: justify;
+}
+
+/* incorporating pictures with hover */
+
+.pumpkin:hover {
+  position: relative;
+}
+.pumpkin:hover:after {
+  content: url("pasties4.png");
+  display: block;
+  position: absolute;
+  left: 150px;
+  top: 60px;
+}
+
+.fudge:hover {
+  position: relative;
+}
+.fudge:hover:after {
+  content: url("fudge2.jfif");
+  display: block;
+  position: absolute;
+  left: 180px;
+  top: 35px;
+}
+
+.lambstew:hover {
+  position: relative;
+}
+.lambstew:hover:after {
+  content: url("lamb-stew2.jfif");
+  display: block;
+  position: absolute;
+  left: 132px;
+  top: 40px;
+}
+
+.butterbeer:hover {
+  position: relative;
+}
+.butterbeer:hover:after {
+  content: url("butterbeer2.jfif");
+  display: block;
+  position: absolute;
+  left: 150px;
+  top: 50px;
+}
+
+.ribroast:hover {
+  position: relative;
+}
+.ribroast:hover:after {
+  content: url("ribroast2.jfif");
+  display: block;
+  position: absolute;
+  left: 165px;
+  top: 40px;
 }
