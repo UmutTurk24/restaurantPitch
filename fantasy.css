@@ -107,6 +107,7 @@ margin-top: 30px;
 
 img.mainpic {
   margin-bottom: 0px;
+  /* max-width: 100%; */
 }
 
 #cheers{
