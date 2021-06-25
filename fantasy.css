@@ -197,7 +197,7 @@ h2.intro {
   position: relative;
 }
 .fudge:hover:after {
-  content: url("fudge2.jfif");
+  content: url("treacle3.jfif");
   display: block;
   position: absolute;
   left: 180px;
@@ -235,4 +235,9 @@ h2.intro {
   position: absolute;
   left: 165px;
   top: 40px;
+}
+
+.mockingjay {
+  height: 230px;
+  top:auto;
 }
